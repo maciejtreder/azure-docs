@@ -192,8 +192,9 @@ From the design-time perspective, any runtime component is just an HTML tag with
     createModel: async () => {
         var model = new ConferenceSessionModel();
         model.sessionNumber = "107";
-            return model;
-        }
+        ...
+        return model;
+    }
     ...
     ```
 
